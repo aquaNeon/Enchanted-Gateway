@@ -1,0 +1,21 @@
+{
+  "name": "enchanted-gateway",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vite": "^4.0.4",
+    "vite-plugin-glsl": "^1.0.2"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "lil-gui": "^0.17.0",
+    "three": "^0.148.0",
+    "three-vignette-background": "^1.0.3"
+  }
+}
